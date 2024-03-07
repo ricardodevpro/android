@@ -38,7 +38,7 @@ header > h1{
     font-weight: lighter;
     margin-bottom: 20px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-    font-size: 2.5em;
+    font-size: 2em;
 }
 header > p{
     color: white;
@@ -85,6 +85,7 @@ img#pequena{
 main h1{
     font-family: var(--fonte-android);
     color: var(--cor04);
+    font-size: 19px;
 }
 main h2{
     font-family: var(--fonte-android);
@@ -93,6 +94,7 @@ main h2{
     margin-bottom: 5px;
     background-image: linear-gradient(to right,rgba(144, 238, 144, 0.371), white);
     text-indent: 10px;
+    font-size: 17px;
 }
 main strong{
     font-weight: bold;
@@ -124,6 +126,7 @@ nav > a{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.43);
     padding: 10px;
     transition-duration: 0.5s;
+    font-size: 13px;
 }
 nav > a:hover{
     background-color: var(--cor01);
@@ -172,6 +175,7 @@ aside > ul{
     list-style: "\2714";
     list-style-position: inside;
     columns: 2;
+    font-size: 15px;
 }
 a.externo::after{
     content: '\0020\1F517';
@@ -181,6 +185,7 @@ footer{
     color: white;
     text-align: center;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.356);
+    font-size: 13px;
 }
 footer a{
     text-decoration: none;
